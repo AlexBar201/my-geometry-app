@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>my-geometry-app</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.1.0</version>
 
     <repositories>
         <repository>
@@ -26,6 +26,12 @@
             <groupId>org.example</groupId>
             <artifactId>geometry-utils</artifactId>
             <version>1.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>geometry-three-dimensional-shapes</artifactId>
+            <version>1.3.0</version>
         </dependency>
     </dependencies>
 
