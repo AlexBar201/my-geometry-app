@@ -19,7 +19,7 @@ public class CircleGeometryCalculator {
             double perimeter = Circle.perimeterCircle();
 
             System.out.println(" ");
-            System.out.printf("Площадь круга будет равна = %.2f; ", area);
+            System.out.printf("Площадь круга при радиусе" + " " + UnitConversionCircle.radiusToString(radius) + " " + "будет равна = %.2f; ", area);
             System.out.println(" ");
             System.out.println(" ");
             System.out.printf("При этом периметр круга будет равен = %.2f; ", perimeter);

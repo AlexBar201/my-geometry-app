@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>my-geometry-app</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <repositories>
         <repository>
@@ -18,8 +18,14 @@
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>my-geometry-lib</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
+            <artifactId>geometry-logic</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>geometry-utils</artifactId>
+            <version>1.2.0</version>
         </dependency>
     </dependencies>
 
